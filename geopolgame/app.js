@@ -1171,7 +1171,7 @@ function loadSampleCampaign() {
   els.turnDuration.value = "30";
   els.scenarioMode.value = "alternate-history";
   els.campaignPremise.value =
-    "NATO and Warsaw Pact postures are fraying after maritime reconnaissance collisions, pipeline sabotage rumors, and a sudden leadership health scare in Moscow.";
+    "";
   els.providerSearch.value = "Perplexity Sonar";
   els.providerReasoner.value = "Llama Strategist";
   els.providerResolver.value = "Local Simulation Director";
