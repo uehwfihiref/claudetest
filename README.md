@@ -24,33 +24,7 @@ GEOPOLITICS is a text-based geopolitical strategy game where you assume control 
 
 ### Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/geopolitics.git
-cd geopolitics
-
-# Install dependencies
-npm install
-
-# Start the dev server
-npm start
-```
-
-The game runs in your browser at `http://localhost:3000` or as a React artifact in Claude.ai.
-
-### API Setup
-
-The game calls the Anthropic API to:
-1. Generate the initial world state when you start a campaign
-2. Resolve turns and simulate NPC nation actions
-3. Inject debug events
-
-Set your API key in the environment:
-```bash
-export ANTHROPIC_API_KEY=your_key_here
-```
-
-Or, update the fetch calls in `geopolitics.jsx` to use your auth method.
+It should be as simple as double-tapping the file in your file explorer!
 
 ## Gameplay
 
